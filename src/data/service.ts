@@ -13,19 +13,19 @@ export const services = [
   },
   {
     title: "Negotiations",
-    image: service2,
+    image: service4,
     description:
       "We represent both players and clubs and never conceal conflict of interest, we always get our clients the best possible deal.",
   },
   {
     title: "IP/Image rights",
-    image: service3,
+    image: service4,
     description:
       "We ensure you control IP and image rights this includes support with social media and PR through one of our partner firms.",
   },
   {
     title: "Wealth management",
-    image: service4,
+    image: service1,
     description:
       "Our representatives have negotiated being high net worth individuals themselves so are best placed to support and find the correct consultants to manage wealth.",
   },

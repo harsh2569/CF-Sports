@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
           <h1 className="mb-5">Welcome to CF Global Sports Management.</h1>
           <p className="mb-50">Agents with a difference.
           </p>
-          <button className="btn btn-primary">Contact us</button>
+          <button className="btn btn-primary"><a href="#contact">Contact Us</a></button>
         </div>
       </div>
     </div>
