@@ -1,0 +1,48 @@
+.register {
+  padding: 90px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+
+  &_abstract {
+    min-height: 500px;
+    background-image: url(../../assets/images/registration.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &_content {
+    padding-left: 50px;
+    display: grid;
+    place-items: center;
+
+    > div {
+      background: #f5f5f5;
+      padding: 2em;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+
+      ul {
+        list-style: none;
+        margin-left: 1em;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      ul li::before {
+        content: "\2022";
+        color: #8dc63e;
+        font-weight: bold;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin-left: -1em;
+      }
+    }
+  }
+}

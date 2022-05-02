@@ -1,0 +1,36 @@
+.hero {
+  min-height: calc(100vh - 90px);
+  background-image: url(../../assets/abstracts/hero_abstract.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: darken;
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+
+  @media (max-width: 768px) {
+    margin-left: 30px;
+  }
+
+  @media (max-width: 576px) {
+    margin-left: 20px;
+  }
+
+  > div {
+    max-width: 600px;
+    color: #fff;
+
+    h1 {
+      font-weight: 700;
+      font-size: 38px;
+      line-height: 62px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 22px;
+      color: #fff;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.about {
+  padding: 90px 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4em;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+
+  @media (max-width: 576px) {
+    padding: 90px 30px;
+  }
+
+  &_abstract {
+    background-image: url(../../assets/images/about.png);
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    place-items: center;
+
+    @media (max-width: 768px) {
+      padding: 50px 0;
+    }
+
+    img {
+      width: 10em;
+    }
+  }
+
+  &_content {
+    small {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+      color: #4143e5;
+    }
+  }
+}
